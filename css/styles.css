@@ -247,6 +247,12 @@ section {
 }
 
 /*PROFILE SECTION*/
+.fa-linkedin {
+            height: 16px;
+            width: 16px;
+            background: #007bb5;
+            color: white;
+}
 
 #profile {
     padding-top: 3.5rem;
@@ -255,7 +261,7 @@ section {
     gap: 10rem;
     height: 100vh;
     background-color: #0a0a0a;
-    background-image: url('./Assets/mypic.jpg');
+    background-image: url('../assets/img/profilebg.webp');
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -268,8 +274,8 @@ section {
 
 .home-pic {
     display: flex;
-    height: 400px;
-    width: 400px;
+    height: 600px;
+    width: 500px;
     margin: 9.4rem 0;
     border-radius: 50%;
     box-shadow: 0 0 25px rgba(0, 0, 0,0.4);
@@ -397,7 +403,7 @@ btn-color-2:hover {
     padding-top: 3rem;
     height: 100vh;
     background-color: #222222;
-    background-image: url('./Assets/black.jpg');
+    background-image: url('../assets/img/aboutbg.png');
     background-size: cover;
     background-repeat: no-repeat;
     background-blend-mode: overlay;
@@ -446,10 +452,10 @@ btn-color-2:hover {
 .details-container {
     padding-bottom: 0.8rem;
     flex: 1;
-    background: none;
+    background-color: #e3e3e3;
     border-radius: 2.6rem;
     border: #070707 0.1rem solid;
-    border-color: #d2cdc1;
+    border-color: #4a4a4a;
     text-align: center;
     line-height: 1.25rem;
     transition: all 300ms ease;
