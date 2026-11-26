@@ -1,281 +1,171 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dimple </title>
-    <link rel="stylesheet" href="css/styles.css">
-    <link rel="stylesheet" href="css/mediaqueries.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
-    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous"> -->
-
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Dimple Kadayat – Graphic & UI/UX Designer</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;700;800&family=Instrument+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
 </head>
-<body bgcolor="#070707">
-
-    <div class="intro">
-        <h1 class="logo-header">
-            <span class="intro-logo">D</span>
-            <span class="intro-logo">I</span>
-            <span class="intro-logo">M</span>
-            <span class="intro-logo">P</span>
-            <span class="intro-logo">L</span>
-            <span class="intro-logo">E</span>
-        </h1>
-    </div>
-
-    <nav id="desktop-nav" class="bgcolor">
-        <div class="logo"><img src="assets/img/logo.png"
-            alt="Dimple" onclick="location.href=''">
-        </div>
-        <div>
-            <ul class="nav-links">
-                <li><a href="#about">About</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </div>
+<body>
+<header>
+  <div class="wrap bar">
+    <a class="logo" href="#top">dimple<i></i></a>
+    <nav aria-label="Main">
+      <a href="#work">Work</a><a href="#about">About</a><a href="#experience">Experience</a><a href="#skills">Skills</a><a href="#contact">Contact</a>
     </nav>
-
-    <nav id="hamburger-nav">
-        <div class="logo">Dimple</div>
-        <div class="hamburger-menu">
-            <div class="hamburger-icon" onclick="togglemenu()">
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
-            <div class="menu-links" onclick="togglemenu()">
-                <li><a href="#about" onclick="togglemenu()">About</a></li>
-                <li><a href="#skills" onclick="togglemenu()">Skills</a></li>
-                <li><a href="#projects" onclick="togglemenu()">Projects</a></li>
-                <li><a href="#contact" onclick="togglemenu()">Contact</a></li>
-            </div>
-        </div>
-    </nav>
-
-    <section id="profile">
-        <div class="section__pic-container">
-            <img class="home-pic"
-            src="./assets/img/dimple.png" alt="Dimple">
-        </div>
-        <div class="section__text" class="show">
-            <p class="section__text__p1">Hello there, I'm</p>
-            <h1 class="title">Dimple Kadayat</h1>
-            <p class="section__text__p2">Graphic Designer</p>
-            <div class="btn-container">
-                <button class="btn btn-color-2"
-                onclick="window.open('./Assets/DimpleResume.pdf')"
-                >
-                My Resume
-                </button>
-                <button class="btn btn-color-1"
-                onclick="location.href='./#contact'">
-                Get in touch
-                </button>
-            </div>
-            <div id="socials-container">
-                <a href="#" class="fa fa-linkedin"></a>
-                </div>
-        </div>
-    </section>
-
-    <!-- <section id="about">
-        <p class="section__text">Get To Know</p>
-        <h1 class="title2">About Me</h1>
-        <div class="section-container">
-            <div class="section__pic-container">
-                <img src="./assets/img/aboutdimple.jpeg"
-                alt="Bhavya Parmar Profile Picture"
-                class="about-pic">
-            </div>
-            <div class="about-details-container">
-                <div class="about-containers">
-                    <div class="details-container">
-                        <i class="fa-solid fa-award"></i>
-                        <h3 class="about-headings">Experience</h3>
-                        <p><b>5+ years</b><br>Graphic Designing<br>Video Editing</p>
-                    </div>
-                    <div class="details-container">
-                        <i class="fa fa-graduation-cap"></i>
-                        <h3 class="about-headings">Education</h3>
-                        <p><b>IIT Gandhinagar</b>
-                        <br>B.Tech - M.Tech (Dual Degree)<br>
-                        CSE '23-28</p>
-                    </div>
-                </div>
-                <div class="text-container">
-                    <p>
-                        I'm a sophomore at IIT Gandhinagar and the Design Coordinator 
-                        of Blithchron, IITGN's cultural fest. With six years of 
-                        experience in graphic design and video editing, I am proficient 
-                        in Adobe Photoshop, Illustrator, Premiere Pro, and After Effects, 
-                        with skills in basic 3D modeling using Blender. I thrive in 
-                        collaborative projects.
-                    </p>
-                </div>
-            </div>
-        </div>
-    </section> -->
-
-    <!-- About Me Section -->
-<section class="about-section">
-  <div class="about-container">
-    
-    <!-- Left Side - Photo -->
-    <div class="about-content">
-      <div class="section-header">
-        <span class="dash">—</span>
-        <h2>About Me</h2>
-      </div>
-      
-      <p class="about-text">
-        Hi, I’m Dimple Kadayat — a Graphic Designer & UI/UX Designer with a strong foundation in both creative design and technical development.
-      </p>
-      
-      <p class="about-text">
-        I hold a B.Sc. (Hons) in Computer Systems Engineering from ISMT College (affiliated with University of Sunderland, UK) and recently completed a 2-year Full Stack Development program at Lambton College in Canada. 
-      </p>
-
-      <p class="about-text">
-        My passion for design began in childhood through drawing. I started freelancing at 15–16 and later worked as a Graphic Designer for an online shopping store. I thrive in collaborative projects and love turning ideas into meaningful visual experiences.
-      </p>
-
-    </div>
-
-    <!-- Right Side - Content -->
-    <div class="about-photo">
-      <img src="./assets/img/aboutdimple.jpeg" alt="Dimple Kadayat">
-    </div>
   </div>
-</section>
+</header>
 
-    <section id="skills">
-        <p class="section__text">Have a look at my</p>
-        <h1 class="title">Skills</h1>
-        <div class="skills-details-container">
-                <div class="sk-details-container">
-                    <h2 class="skills-subtitle">Graphic Design</h2>
-                    <div class="article-container">
-                        <article>
-                            <img src="./Assets/checkmark.png" alt="skills checkmark"
-                            class="icon">
-                            <div>
-                                <h3>Adobe Photoshop</h3>
-                                <p>Experienced</p>
-                            </div>
-                        </article>
-                        <article>
-                            <img src="./Assets/checkmark.png" alt="skills checkmark"
-                            class="icon">
-                            <div>
-                                <h3>Adobe Illustrator</h3>
-                                <p>Basic</p>
-                            </div>
-                        </article>
-                        <article>
-                            <img src="./Assets/checkmark.png" alt="skills checkmark"
-                            class="icon">
-                            <div>
-                                <h3>Canva</h3>
-                                <p>Intermediate</p>
-                            </div>
-                        </article>
-                    </div>
-                    <h2 class="skills-subtitle">Video Editing</h2>
-                    <div class="article-container">
-                        <article>
-                            <img src="./Assets/checkmark.png" alt="skills checkmark"
-                            class="icon">
-                            <div>
-                                <h3>Adobe Premiere Pro</h3>
-                                <p>Experienced</p>
-                            </div>
-                        </article>
-                        <article>
-                            <img src="./Assets/checkmark.png" alt="skills checkmark"
-                            class="icon">
-                            <div>
-                                <h3>Adobe After Effects</h3>
-                                <p>Experienced</p>
-                            </div>
-                        </article>
-                    </div>           
-                </div>
-        </div>
-    </section>
+<main id="top">
+<div class="wrap hero">
+  <div class="hero-grid">
+    <div>
+<h1>Dimple<br>Kadayat<span class="dot"></span></h1>
+  <p class="lede">Graphic and UI/UX designer.</p>
+  <div class="actions">
+    <a class="btn gold" href="#work">See my work</a>
+    <a class="btn" href="resume.pdf">Download resume</a>
+  </div>
+    </div>
+    <figure class="portrait"><img src="images/dimple.jpg" alt="Portrait of Dimple Kadayat"></figure>
+  </div>
+  <div class="facts">
+    <span><b>Toronto</b>, open to remote and relocation across Canada</span>
+    <span><b>Freelance designer</b> since 2022</span>
+    <span><b>Full stack</b> diploma, Lambton College</span>
+  </div>
+</div>
 
-    <section id="projects">
-        <p class="section__text">Explore my</p>
-        <h1 class="title">Work</h1>
-        <div class="work-list">
-            <a href="./Assets/Heaven.png"><div class="work">
-                <img src="./Assets/Heaven.png" alt="The Door To Heaven">
-                <div class="layer">
-                    <h3>The Door To Heaven</h3>
-                </div>
-            </div></a>
-            <a href="./Assets/Sukoon.png"><div class="work">
-                <img src="./Assets/Sukoon.png" alt="Sukoon">
-                <div class="layer">
-                    <h3>Sukoon</h3>
-                </div>
-            </div></a>
-            <a href="./Assets/Falling.png"><div class="work">
-                <img src="./Assets/Falling.png" alt="Falling - Light">
-                <div class="layer">
-                    <h3>Falling - Light</h3>
-                </div>
-            </div></a>
-            
-        </div>
+<section id="work"><div class="wrap">
+  <h2>Selected work</h2>
+  <div class="grid">
+    <button class="card wide" data-open="brewhaven" type="button">
+      <div class="art"><img src="images/cover-brewhaven.jpg" alt="BrewHaven Coffee Shop preview" loading="lazy"></div>
+      <h3>BrewHaven Coffee Shop</h3>
+      <div class="tags">Logo, Instagram carousel, promotional post</div>
+      <p>Brand mark, a four-slide Instagram carousel, and a buy-one-get-one promotion for a coffee shop.</p>
+    </button>
+    <button class="card" data-open="bloom" type="button">
+      <div class="art"><img src="images/cover-bloom.jpg" alt="Bloom and Glow Beauty Bar preview" loading="lazy"></div>
+      <h3>Bloom &amp; Glow Beauty Bar</h3>
+      <div class="tags">Logo, grand-opening offer, services post</div>
+      <p>Logo, launch promotion, and a services menu post for a beauty bar.</p>
+    </button>
+    <button class="card" data-open="mela" type="button">
+      <div class="art"><img src="images/cover-himalayan.jpg" alt="Himalayan Mela preview" loading="lazy"></div>
+      <h3>Himalayan Mela</h3>
+      <div class="tags">Promotional poster</div>
+      <p>Poster for the 18th Himalayan Mela, a Nepali cultural festival at Nathan Phillips Square.</p>
+    </button>
+    <button class="card" data-open="journey" type="button">
+      <div class="art"><img src="images/cover-journey.jpg" alt="Journey Journal preview" loading="lazy"><small>College project</small></div>
+      <h3>Journey Journal</h3>
+      <div class="tags">Mobile app UI/UX, wireframes</div>
+      <p>A travel journaling Android app, from wireframes to finished screens.</p>
+    </button>
+    <button class="card" data-open="olympics" type="button">
+      <div class="art"><img src="images/cover-fun-olympics.jpg" alt="Fun Olympics website preview" loading="lazy"><small>College project</small></div>
+      <h3>Fun Olympics website</h3>
+      <div class="tags">Website UI/UX</div>
+      <p>Screens from a multi-page Olympic fan website: home, players, schedule, gallery, games, and an admin panel.</p>
+    </button>
+  </div>
+</div></section>
 
-            </div>
-        </div>
-        <a href="projects.html">
-        <button class="btn btn-color-2">
-                See more
-            </button></a>
-    </section>
+<section id="about"><div class="wrap about">
+  <figure class="about-photo"><img src="images/about-dimple.jpg" alt="Dimple Kadayat smiling in a navy blazer" loading="lazy"></figure>
+  <div>
+    <h2>About</h2>
+    <p>I’m a designer with a technical background. I started with logos, posters and social posts, then added UI/UX and front-end development, so I can design an interface and also build it.</p>
+    <p>I’ve worked as a freelance and in-house graphic designer, a business analyst and project coordinator, and a software development intern. I speak English, Nepali and Hindi.</p>
+    <p>I hold a Post-Graduate Diploma in Full Stack Software Development from Lambton College (2025) and a BSc (Hons) in Computer System Engineering from the University of Sunderland (2022).</p>
+  </div>
+</div></section>
 
-    <section id="contact">
-        <p class="section__text" style="padding-bottom: 0.3rem;">Get In Touch</p>
-        <h1 class="title" style="font-weight: 600;">Contact Me</h1>
-        <div class="contact-info-upper-container">
-            <div class="contact-info-container">
-                <a href="mailto:23110059@iitgn.ac.in">
-                    <a href="#" class="fa fa-envelope"></a>
-                </a>
-            </div>
-            <div class="contact-info-container">
-            <a href="https://www.linkedin.com/in/bhavya-parmar/">
-                <a href="#" class="fa fa-linkedin"></a>
-            </a>
-            </div>
-            <div class="contact-info-container">
-            <a href="https://www.instagram.com/bhavyeahhh_/">
-                <a href="#" class="fa fa-instagram"></a>
-            </a>
-            </div>
-        </div>
-        <div class="logo"><img src="./assets/img/logo.png"
-            alt="Bhavya" onclick="location.href='./#profile'">
-        </div> 
-    </section>
+<section id="experience"><div class="wrap">
+  <h2>Experience</h2>
+  <div>
+    <div class="row"><div class="when">Mar 2022 – present</div><div><h3>Graphic Designer</h3><p>Freelance</p></div></div>
+    <div class="row"><div class="when">Apr 2023 – Apr 2024</div><div><h3>Business Analyst &amp; Project Coordinator</h3><p>KonnectCraft</p></div></div>
+    <div class="row"><div class="when">Jan – Mar 2023</div><div><h3>Software Development Intern</h3><p>KonnectCraft</p></div></div>
+    <div class="row"><div class="when">Feb 2022 – Jun 2023</div><div><h3>Data Specialist</h3><p>CloudFactory</p></div></div>
+    <div class="row"><div class="when">Feb 2020 – Jun 2021</div><div><h3>Graphic Designer</h3><p>iStore Online Shopping</p></div></div>
+  </div>
+</div></section>
 
-    <footer>
-        <nav>
-            <div class="nav-links-container2">
-                <ul class="nav-links">
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#skills">Skills</a></li>
-                    <li><a href="#projects">Projects</a></li>
-                </ul>
-            </div>
-        </nav><br>
-        <p>Copyright &#169; 2026 Dimple Kadayat. All Rights Resereved.</p>
-    </footer>
+<section id="skills"><div class="wrap">
+  <h2>Skills</h2>
+  <div class="skills">
+    <div class="box hl"><h3>Design</h3><div class="chips"><span>Figma</span><span>Photoshop</span><span>Illustrator</span><span>InDesign</span><span>Canva</span><span>Logo design</span><span>Social media graphics</span></div></div>
+    <div class="box"><h3>UX</h3><div class="chips"><span>Wireframing (draw.io)</span><span>Mobile app design</span><span>Website design</span></div></div>
+    <div class="box"><h3>Development</h3><div class="chips"><span>HTML</span><span>CSS</span><span>JavaScript</span><span>SQL</span><span>MongoDB</span></div></div>
+    <div class="box"><h3>Working with teams</h3><div class="chips"><span>Project coordination</span><span>Business analysis</span><span>Jira</span><span>Trello</span><span>Git</span></div></div>
+  </div>
+</div></section>
 
-   <script defer src="js/scripts.js"></script> 
+<section id="contact"><div class="wrap">
+  <div class="contact">
+    <div class="c-left">
+      <h2>Let’s work together</h2>
+      <p>I’m looking for junior graphic design and UI/UX roles, and I’m also open to project coordination, business analyst, and administrative roles. Freelance projects are welcome too.</p>
+      <ul class="c-list">
+        <li><a href="mailto:kadayatdimpal@gmail.com">kadayatdimpal@gmail.com</a></li>
+        <li><a href="https://www.linkedin.com/in/dimple-kadayat/" target="_blank" rel="noopener">linkedin.com/in/dimple-kadayat</a></li>
+        <li>Toronto, Ontario</li>
+      </ul>
+      <div class="links"><a class="btn" href="resume.pdf">Download resume</a></div>
+    </div>
+    <form class="c-form" id="cform" novalidate>
+      <div class="two">
+        <input type="text" id="cname" placeholder="Your name" aria-label="Your name" autocomplete="name">
+        <input type="email" id="cmail" placeholder="Your email" aria-label="Your email" autocomplete="email">
+      </div>
+      <input type="text" id="csub" placeholder="Subject" aria-label="Subject">
+      <textarea id="cmsg" rows="6" placeholder="Your message" aria-label="Your message"></textarea>
+      <button class="btn dark" type="submit">Send message</button>
+      <p class="note" id="cnote">Opens your email app with your message ready to send.</p>
+    </form>
+  </div>
+</div></section>
+</main>
+
+<footer><div class="wrap">© 2026 Dimple Kadayat. Toronto, Ontario.</div></footer>
+<template id="g-brewhaven"><div class="vh"><div><h3>BrewHaven Coffee Shop</h3><p>Logo, Instagram carousel, promotional post</p></div></div><div class="meta"><div><h4>What I made</h4><ul class="feat"><li>Logo with tagline</li><li>Four-slide Instagram carousel: signature menu, oat milk honey latte, butter croissant, opening hours</li><li>Buy-one-get-one latte promotion post</li></ul></div></div><h4>Logo</h4><p class="used"><b>Tools:</b> Illustrator</p><div class="shots wide"><img src="images/brewhaven-logo.jpg" alt="BrewHaven logo with tagline" loading="lazy"></div><h4>Instagram carousel</h4><p class="used"><b>Tools:</b> Photoshop, Canva</p><div class="shots posters"><img src="images/brewhaven-carousel-1.jpg" alt="BrewHaven carousel slide 1" loading="lazy"><img src="images/brewhaven-carousel-2.jpg" alt="BrewHaven carousel slide 2" loading="lazy"><img src="images/brewhaven-carousel-3.jpg" alt="BrewHaven carousel slide 3" loading="lazy"><img src="images/brewhaven-carousel-4.jpg" alt="BrewHaven carousel slide 4" loading="lazy"></div><h4>Promotional post</h4><p class="used"><b>Tools:</b> Photoshop, Canva</p><div class="shots posters"><img src="images/brewhaven-promo.jpg" alt="BrewHaven buy one get one promotion" loading="lazy"></div></template>
+<template id="g-bloom"><div class="vh"><div><h3>Bloom &amp; Glow Beauty Bar</h3><p>Logo, grand-opening offer, services post</p></div></div><div class="meta"><div><h4>What I made</h4><ul class="feat"><li>Logo</li><li>Grand-opening offer with 50% off</li><li>Services menu: nail, facial and skincare, body spa and massage, with booking policies</li></ul></div></div><h4>Logo</h4><p class="used"><b>Tools:</b> Illustrator</p><div class="shots wide"><img src="images/bloom-logo.jpg" alt="Bloom and Glow Beauty Bar logo" loading="lazy"></div><h4>Grand-opening offer and services post</h4><p class="used"><b>Tools:</b> Photoshop, Canva</p><div class="shots posters"><img src="images/bloom-grand-opening.jpg" alt="Grand opening promotion" loading="lazy"><img src="images/bloom-services.jpg" alt="Services menu post" loading="lazy"></div></template>
+<template id="g-mela"><div class="vh"><div><h3>Himalayan Mela</h3><p>Promotional poster</p></div></div><div class="meta"><div><h4>What I made</h4><ul class="feat"><li>Event poster for the 18th Himalayan Mela with the date, venue, and organizer logo</li><li>Photo layout highlighting food, culture, music, and dance</li></ul></div></div><h4>Poster</h4><p class="used"><b>Tools:</b> Photoshop, Canva</p><div class="shots posters"><img src="images/himalayan-mela-poster.jpg" alt="Himalayan Mela poster" loading="lazy"></div></template>
+<template id="g-journey"><div class="vh"><div><h3>Journey Journal</h3><p>Mobile app UI/UX, wireframes (college project)</p></div></div><div class="meta"><div><h4>What I made</h4><ul class="feat"><li>Welcome screen, registration, and log in</li><li>Journal list with delete confirmation</li><li>Add and edit entries with a title, thoughts, location, date, and a photo from the camera or gallery</li><li>Share an entry, and an About us screen</li><li>Wireframes drawn in draw.io before building the app</li></ul></div></div><h4>Wireframes (draw.io)</h4><p class="used"><b>Tools:</b> draw.io</p><div class="shots phones"><img src="images/journey-wireframe-2.jpg" alt="Welcome screen wireframe" loading="lazy"><img src="images/journey-wireframe-3.jpg" alt="Log in wireframe" loading="lazy"><img src="images/journey-wireframe-5.jpg" alt="Journal list wireframe" loading="lazy"><img src="images/journey-wireframe-6.jpg" alt="Add memory wireframe" loading="lazy"><img src="images/journey-wireframe-8.jpg" alt="About us wireframe" loading="lazy"></div><h4>Finished screens</h4><p class="used"><b>Tools:</b> Android Studio, Java, XML, Room database</p><div class="shots phones"><img src="images/journey-welcome.jpg" alt="Welcome screen" loading="lazy"><img src="images/journey-registration.jpg" alt="Registration" loading="lazy"><img src="images/journey-journal-list.jpg" alt="Journal list" loading="lazy"><img src="images/journey-add-memory.jpg" alt="Add a journey memory" loading="lazy"><img src="images/journey-add-memory-filled.jpg" alt="Entry with details filled in" loading="lazy"></div></template>
+<template id="g-olympics"><div class="vh"><div><h3>Fun Olympics website</h3><p>Website UI/UX (college project)</p></div></div><div class="meta"><div><h4>What I made</h4><ul class="feat"><li>Logo for the site</li><li>Pages for videos, players, schedules, gallery, games, news, members, and contact</li><li>Sign up, log in, and a user profile</li><li>An admin panel for adding videos, players, schedules, images, games, and news, plus site analytics</li></ul></div></div><h4>Screens</h4><p class="used"><b>Tools:</b> Wix, Photoshop, Illustrator (logo)</p><div class="shots wide"><img src="images/fun-olympics-home.jpg" alt="Home page" loading="lazy"><img src="images/fun-olympics-players.jpg" alt="Players page" loading="lazy"><img src="images/fun-olympics-gallery.jpg" alt="Gallery" loading="lazy"><img src="images/fun-olympics-games.jpg" alt="Explore different Olympic games" loading="lazy"><img src="images/fun-olympics-schedule.jpg" alt="Schedule" loading="lazy"><img src="images/fun-olympics-login.jpg" alt="Log in" loading="lazy"><img src="images/fun-olympics-admin.jpg" alt="Admin panel" loading="lazy"></div></template>
+
+<dialog id="viewer" aria-label="Project gallery"><div class="vtop"><div id="vhead"></div><button class="close" type="button" id="vclose">Close</button></div><div id="viewer-body"></div></dialog>
+<script>
+(function(){
+  var d=document.getElementById('viewer'),b=document.getElementById('viewer-body');
+  document.querySelectorAll('[data-open]').forEach(function(c){
+    c.addEventListener('click',function(){
+      var tpl=document.getElementById('g-'+c.dataset.open);
+      var f=tpl.content.cloneNode(true),h=f.querySelector('.vh'),vh=document.getElementById('vhead');vh.innerHTML='';if(h)vh.appendChild(h);b.innerHTML='';b.appendChild(f);d.showModal();d.scrollTop=0;
+    });
+  });
+  b.addEventListener('click',function(e){
+    var s=e.target.closest('.sw');if(!s)return;var hx=s.dataset.hex,lab=s.firstChild;
+    try{navigator.clipboard.writeText(hx)}catch(x){}
+    lab.nodeValue='Copied';setTimeout(function(){lab.nodeValue=hx},900);
+  });
+  document.getElementById('vclose').addEventListener('click',function(){d.close()});
+  d.addEventListener('click',function(e){if(e.target===d)d.close()});
+  var f=document.getElementById('cform');
+  if(f)f.addEventListener('submit',function(e){
+    e.preventDefault();
+    var n=document.getElementById('cname').value.trim(),m=document.getElementById('cmail').value.trim(),s=document.getElementById('csub').value.trim(),g=document.getElementById('cmsg').value.trim(),note=document.getElementById('cnote');
+    if(!n||!m||!g||m.indexOf('@')<1){note.textContent='Please add your name, a valid email, and a message.';return}
+    var body=g+'\n\n'+n+' ('+m+')';
+    note.textContent='Opening your email app. If nothing opens, email kadayatdimpal@gmail.com directly.';
+    window.location.href='mailto:kadayatdimpal@gmail.com?subject='+encodeURIComponent(s||'Portfolio enquiry')+'&body='+encodeURIComponent(body);
+  });
+})();
+</script>
 </body>
 </html>
